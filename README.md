@@ -7,7 +7,7 @@ tu-repo/
 ├── docs/
 │   └── arduino/
 │       ├── intro.mdx              ✅ listo
-│       └── fase1-fundamentos.mx  ✅ listo
+│       └── fase1-fundamentos.mdx  ✅ listo
 └── sidebars.js                   ✅ listo (mergear con el tuyo)
 ```
 
@@ -16,7 +16,7 @@ tu-repo/
 ### 1. Copiar los docs
 ```bash
 cp docs/arduino/intro.mdx           tu-proyecto/docs/arduino/intro.mdx
-cp docs/arduino/fase1-fundamentos.mx  tu-proyecto/docs/arduino/fase1-fundamentos.mx
+cp docs/arduino/fase1-fundamentos.mdx  tu-proyecto/docs/arduino/fase1-fundamentos.mdx
 ```
 
 ### 2. Integrar el sidebar
