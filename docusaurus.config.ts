@@ -11,11 +11,11 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://tu-usuario.github.io', // 👈 cambia esto por tu usuario de GitHub
-  baseUrl: '/nombre-de-tu-repo/',       // 👈 cambia esto por el nombre de tu repo
+  url: 'https://CrowSoft.github.io', // 👈 cambia esto por tu usuario de GitHub
+  baseUrl: '/gaia-dev/',       // 👈 cambia esto por el nombre de tu repo
 
-  organizationName: 'tu-usuario',       // 👈 tu usuario de GitHub
-  projectName: 'nombre-de-tu-repo',     // 👈 nombre de tu repo
+  organizationName: 'CrowSoft',       // 👈 tu usuario de GitHub
+  projectName: 'gaia-dev',     // 👈 nombre de tu repo
 
   onBrokenLinks: 'throw',
 
