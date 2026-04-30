@@ -1,0 +1,185 @@
+---
+id: intro
+title: Plan de Estudios Arduino
+sidebar_label: 📋 Plan General
+sidebar_position: 1
+description: Plan completo de Arduino para niñas de 9 años — desde el primer LED hasta un robot seguidor de línea.
+tags:
+  - arduino
+  - plan
+  - fundamentos
+---
+
+# Plan de Estudios: Arduino para Niñas de 9 Años
+
+> **Duración estimada:** ~32 sesiones · 2 sesiones por semana · ~4 meses
+> **Duración por sesión:** 45–60 minutos
+> **Objetivo final:** Robot insecto autónomo + Seguidor de línea
+> **Meta extendida (opcional):** Robot Zumo
+
+---
+
+## Principios del plan
+
+:::tip Regla de oro
+Cada sesión termina con **algo funcionando** — nunca con teoría sin resultado visible.
+:::
+
+- **Ella maneja el teclado y el breadboard**, el adulto guía con preguntas, no con respuestas
+- La resolución de problemas se aprende **cuando algo no funciona**, no en abstracto
+- Documentar cada proyecto con **fotos o video** — ver el progreso es motivador
+- Ritmo flexible: si una semana solo hay energía para una sesión, está bien
+
+---
+
+## Materiales necesarios
+
+### Electrónica básica
+
+| Material | Cantidad |
+|----------|----------|
+| Arduino Uno (o compatible) | 1 |
+| Cable USB | 1 |
+| Breadboard grande (830 puntos) | 1 |
+| Jumpers macho-macho | 30 |
+| Jumpers macho-hembra | 20 |
+| LEDs de colores (rojo, verde, amarillo, azul) | 5 c/u |
+| Resistencias 220Ω | 20 |
+| Resistencias 10kΩ | 10 |
+| Push buttons | 5 |
+| Buzzer pasivo | 1 |
+
+### Sensores
+
+| Material | Cantidad |
+|----------|----------|
+| LDR (fotoresistencia) | 2 |
+| DHT11 (temperatura y humedad) | 1 |
+| HC-SR04 (sensor ultrasónico) | 1 |
+| Sensores IR (para seguidor de línea) | 2 |
+
+### Actuadores y energía
+
+| Material | Cantidad |
+|----------|----------|
+| Servomotor SG90 | 1 |
+| Motores DC | 2 |
+| Puente H L298N | 1 |
+| Pilas AA + portapilas (4×AA) | 2 juegos |
+| Pila 9V + clip | 2 |
+
+### Visualización y estructura
+
+| Material | Cantidad |
+|----------|----------|
+| Display LCD 16×2 con módulo I2C | 1 |
+| Chasis de robot con ruedas | 1 |
+
+---
+
+## Mapa del plan
+
+```
+🔵 FASE 1          🟡 FASE 2          🟠 FASE 3          🔴 FASE 4
+Fundamentos    →   Sensores       →   Movimiento     →   Proyectos
+Sesiones 1–8       Sesiones 9–18      Sesiones 19–24     Sesiones 25–32
+
+LED · Variables    Luz · Temperatura  Servos · Motores   Seguidor de línea
+Loops · If/Else    Distancia · Pilas  Puente H           Proyecto libre
+Funciones · PWM    Estación meteo     Robot insecto
+🏆 Semáforo        🏆 Estación        🏆 Insecto          🏆 Seguidor
+```
+
+---
+
+## Resumen por fases
+
+### 🔵 Fase 1 — Fundamentos (Sesiones 1–8)
+
+**Objetivo:** Entender Arduino, armar circuitos básicos y escribir los primeros programas.
+
+| Sesión | Tema | Mini-logro |
+|--------|------|------------|
+| 1 | ¿Qué es Arduino? Blink | LED de la placa parpadeando a su velocidad |
+| 2 | Circuito: resistencias y LED externo | Su primer circuito físico funcionando |
+| 3 | Variables y `delay()` | Código que ella puede leer y explicar |
+| 4 | `for` loops — 3 LEDs en secuencia | Efecto "caminante" de luces |
+| 5 | `if / else` — botón interactivo | Primer programa que responde a ella |
+| 6 | Funciones — organizar el código | Código limpio y reutilizable |
+| 7 | PWM — luz suave y fade | Efecto de respiración del LED |
+| 8 | **🏆 Mini-proyecto: Semáforo** | Sistema completo funcionando |
+
+:::note Punto de control
+Si al terminar la sesión 8 ella puede explicar su código del semáforo con sus palabras, está lista para la Fase 2.
+:::
+
+---
+
+### 🟡 Fase 2 — Sensores (Sesiones 9–18)
+
+**Objetivo:** Leer el mundo real y hacer que el Arduino reaccione.
+
+| Sesión | Tema | Mini-logro |
+|--------|------|------------|
+| 9 | Sensor de luz (LDR) | Ver números del mundo real en pantalla |
+| 10 | LED que reacciona a la luz | Lámpara automática básica |
+| 11 | Sensor de temperatura (DHT11) | Primera librería externa instalada |
+| 12 | Alarma de temperatura | Sistema de alerta real |
+| 13 | Sensor ultrasónico HC-SR04 | Ver distancia a objetos en tiempo real |
+| 14 | Radar de reversa | Sensor que suena como el del carro |
+| 15 | Pilas y alimentación | Saber elegir la fuente correcta |
+| 16 | Combinando sensores | Sistema con dos sensores juntos |
+| 17–18 | **🏆 Mini-proyecto: Estación meteorológica** | Display LCD con temperatura y humedad |
+
+---
+
+### 🟠 Fase 3 — Movimiento y motores (Sesiones 19–24)
+
+**Objetivo:** Hacer que las cosas se muevan.
+
+| Sesión | Tema | Mini-logro |
+|--------|------|------------|
+| 19 | Servomotores | Primer movimiento físico controlado |
+| 20 | Motores DC y el puente H L298N | Motor que obedece instrucciones |
+| 21 | Control de dos motores | Chasis que se mueve en 4 direcciones |
+| 22–23 | **🏆 Proyecto 1: Robot Insecto** | Robot autónomo sin cable USB |
+| 24 | Insecto que evita obstáculos | Robot que reacciona al mundo |
+
+---
+
+### 🔴 Fase 4 — Proyectos integradores (Sesiones 25–32)
+
+**Objetivo:** Proyectos completos que integran todo lo aprendido.
+
+| Sesión | Tema | Mini-logro |
+|--------|------|------------|
+| 25 | ¿Cómo funciona un seguidor de línea? | Entender la lógica antes de programar |
+| 26–27 | Calibración y programación | Seguidor funcionando en pista recta |
+| 28–29 | **🏆 Proyecto 2: Seguidor de línea** | Circuito completo con tiempo de vuelta |
+| 30 | Repaso y elección | Ella decide qué explorar más |
+| 31–32 | **🏆 Proyecto libre** | Lo que ella quiera construir |
+
+---
+
+### ⚫ Fase 5 — Extensión: Robot Zumo (Sesiones 33+)
+
+:::warning Esta fase es opcional
+Solo se inicia si completó la Fase 4 con energía y motivación. El Zumo es un salto grande de complejidad.
+:::
+
+El Zumo requiere sensores de borde, estrategia de combate, y lógica considerablemente más compleja. Puede ser el objetivo del segundo semestre o del año siguiente, cuando ella pueda diseñar su propia estrategia.
+
+---
+
+## ¿Por qué este orden?
+
+El plan sigue una progresión deliberada:
+
+1. **Primero el software** (Fase 1) — antes de conectar cualquier sensor, ella entiende cómo pensar en instrucciones
+2. **Luego el mundo real** (Fase 2) — los sensores conectan el código con cosas tangibles
+3. **Luego el movimiento** (Fase 3) — la recompensa de ver algo moverse es enorme
+4. **Finalmente la integración** (Fase 4) — proyectos que combinan todo y tienen identidad propia
+
+---
+
+*Plan diseñado para niñas de 9 años con conocimientos básicos de programación · 2026*
