@@ -42,6 +42,7 @@ Debe poder explicar con sus propias palabras:
 - Qué es PWM con sus propias palabras (sin la definición técnica)
 - Por qué un LED necesita resistencia y qué pasa si no tiene
 
+
   </TabItem>
   <TabItem value="codigo" label="⌨️ Código que debe manejar">
 
@@ -78,6 +79,7 @@ Serial.begin(9600);
 Serial.println(valor);
 ```
 
+
   </TabItem>
   <TabItem value="materiales" label="🛒 Materiales fase completa">
 
@@ -96,7 +98,9 @@ Serial.println(valor);
 | Buzzer pasivo | 1 | Variaciones sesión 4+ |
 | Multímetro | 1 | Sesión 2 |
 
+
   </TabItem>
+
 </Tabs>
 
 ---
@@ -140,6 +144,7 @@ if / else       organizar       suave y fade     con botón
 
 **Materiales:** Arduino + cable USB + computadora con IDE. Nada más (usamos el LED integrado).
 
+
   </TabItem>
   <TabItem value="concepto" label="🧠 Concepto clave">
 
@@ -154,6 +159,7 @@ Al encender (1 vez):        Para siempre:
                             │       ...           │
                             └─────────────────────┘
 ```
+
 
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones divertidas">
@@ -171,7 +177,9 @@ Al encender (1 vez):        Para siempre:
 *"¿Por qué crees que el LED de la placa no se quema si le mandamos corriente directamente, pero si conectamos uno externo sin resistencia sí se puede quemar?"*
 :::
 
+
   </TabItem>
+
 </Tabs>
 
 **Al salir de esta sesión sabe:** qué es Arduino, qué hace `setup()` vs `loop()`, qué hace `delay()`.
@@ -201,6 +209,7 @@ Al encender (1 vez):        Para siempre:
 
 **Materiales:** Arduino + breadboard + 1 LED + resistencia 220Ω + jumpers + multímetro.
 
+
   </TabItem>
   <TabItem value="concepto" label="🧠 Concepto clave">
 
@@ -216,6 +225,7 @@ El LED tiene polaridad:
   Pata larga (+) → va hacia el positivo
   Pata corta (-) → va hacia GND
 ```
+
 
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones divertidas">
@@ -237,7 +247,9 @@ Si los headers del Arduino están sueltos, este es el momento perfecto para que 
 *"¿Cómo harías para cambiar la velocidad del parpadeo sin tener que cambiar el número cada vez? ¿Hay una forma más inteligente?"*
 :::
 
+
   </TabItem>
+
 </Tabs>
 
 **Al salir de esta sesión sabe:** cómo armar un circuito en breadboard, por qué existe la resistencia, polaridad del LED, cómo medir con el multímetro.
@@ -264,6 +276,7 @@ Si los headers del Arduino están sueltos, este es el momento perfecto para que 
 
 **Materiales:** Mismo circuito de sesión 2. No se necesita nada nuevo.
 
+
   </TabItem>
   <TabItem value="concepto" label="🧠 Concepto clave">
 
@@ -283,6 +296,7 @@ Cuando ella cambia el número, cambiar también el post-it.
 *"Esto es lo que el Arduino tiene en su memoria ahorita."*
 :::
 
+
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones divertidas">
 
@@ -299,7 +313,9 @@ Cuando ella cambia el número, cambiar también el post-it.
 *"Si quisieras que el LED parpadeara 10 veces seguidas y luego se apagara, ¿tendrías que escribir encender-apagar 10 veces? ¿O hay una forma más corta?"*
 :::
 
+
   </TabItem>
+
 </Tabs>
 
 **Al salir de esta sesión sabe:** qué es una variable, cómo declararla, por qué los nombres descriptivos importan, qué son los comentarios `//`.
@@ -329,6 +345,7 @@ Cuando ella cambia el número, cambiar también el post-it.
 
 **Materiales:** Arduino + breadboard + **3 LEDs** de distintos colores + 3 resistencias 220Ω + jumpers.
 
+
   </TabItem>
   <TabItem value="concepto" label="🧠 Concepto clave">
 
@@ -356,6 +373,7 @@ Vuelta 2: pines[2] = pin 11 → LED derecho
 Esto suele sorprender. Vale la pena dedicarle un momento específico.
 :::
 
+
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones divertidas">
 
@@ -379,7 +397,9 @@ Esto suele sorprender. Vale la pena dedicarle un momento específico.
 *"El LED siempre hace lo mismo sin importar lo que pase. ¿Cómo le dirías al Arduino que haga algo diferente solo cuando tú le das una señal?"*
 :::
 
+
   </TabItem>
+
 </Tabs>
 
 **Al salir de esta sesión sabe:** qué es un `for`, qué son los arreglos, por qué el índice empieza en 0.
@@ -408,6 +428,7 @@ Esto suele sorprender. Vale la pena dedicarle un momento específico.
 | 45–55 min | Reto: LED verde = sin botón, LED rojo = botón presionado |
 
 **Materiales:** Arduino + breadboard + 1 LED + resistencia 220Ω + **1 botón push** + jumpers.
+
 
   </TabItem>
   <TabItem value="concepto" label="🧠 Concepto clave">
@@ -439,6 +460,7 @@ Sin presionar → pin HIGH (resistencia interna "tira" hacia arriba)
 Al presionar → pin LOW (conecta directo a GND)
 :::
 
+
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones divertidas">
 
@@ -461,7 +483,9 @@ Al presionar → pin LOW (conecta directo a GND)
 *"Cuando el código para encender el LED y apagarlo se repite en varios lugares, ¿hay una forma de escribirlos una sola vez y simplemente llamarlos cuando los necesites?"*
 :::
 
+
   </TabItem>
+
 </Tabs>
 
 **Al salir de esta sesión sabe:** `if / else`, `digitalRead()`, `INPUT_PULLUP`, `==` vs `=`, cómo usar el monitor serial.
@@ -488,6 +512,7 @@ Al presionar → pin LOW (conecta directo a GND)
 
 **Materiales:** Mismo circuito de sesión 5. No se necesita nada nuevo.
 
+
   </TabItem>
   <TabItem value="concepto" label="🧠 Concepto clave">
 
@@ -512,6 +537,7 @@ void loop() {
 
 El objetivo: que `loop()` se lea casi como español.
 
+
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones divertidas">
 
@@ -535,7 +561,9 @@ if (boton) { alerta(); } else { dormido(); }
 *"El LED siempre está completamente encendido o completamente apagado. ¿Crees que se puede hacer que esté a la mitad de brillo? ¿Cómo?"*
 :::
 
+
   </TabItem>
+
 </Tabs>
 
 **Al salir de esta sesión sabe:** definir y llamar funciones, usar parámetros, qué es refactorizar, por qué el código legible importa.
@@ -566,6 +594,7 @@ if (boton) { alerta(); } else { dormido(); }
 **Materiales:** Arduino + breadboard + 1 LED (en pin 9, 10 u 11) + resistencia 220Ω.
 Opcional: LED RGB cátodo común para la variación de color.
 
+
   </TabItem>
   <TabItem value="concepto" label="🧠 Concepto clave">
 
@@ -581,6 +610,7 @@ analogWrite(pin, 0):    ░░░░░░░░░░░░░░░░  siempr
 :::warning Solo pines con ~
 Los pines 3, 5, 6, 9, 10, 11 pueden usar `analogWrite()` en el Arduino Uno.
 :::
+
 
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones divertidas">
@@ -614,7 +644,9 @@ Parpadeo irregular que simula perfectamente la llama de una vela.
 *"Ya sabes encender, apagar, atenuar y crear secuencias. ¿Qué pasaría si combinamos todo en un solo proyecto real?"*
 :::
 
+
   </TabItem>
+
 </Tabs>
 
 **Al salir de esta sesión sabe:** `analogWrite()`, valores 0–255, qué pines tienen PWM, cómo combinar dos `for` para un efecto continuo, `random()`.
@@ -641,6 +673,7 @@ Parpadeo irregular que simula perfectamente la llama de una vela.
 | 50–60 min | Prueba y ajuste. Ella opera el semáforo |
 
 **Materiales:** Arduino + LED rojo + LED amarillo + LED verde + LED blanco/azul (peatón) + 4 resistencias 220Ω + 1 botón + jumpers. Opcional: buzzer.
+
 
   </TabItem>
   <TabItem value="concepto" label="🧠 Diagrama de flujo">
@@ -680,6 +713,7 @@ En cualquier momento del ciclo:
   (pero espera al rojo para actuar)
 ```
 
+
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones divertidas">
 
@@ -698,6 +732,7 @@ En cualquier momento del ciclo:
 - 🏰 *Historias y personajes:* "Eres la controladora de tráfico de una ciudad medieval. Los caballos (carros) van por un lado, los aldeanos (peatones) por el otro. Diseña el sistema de señales."
 - 🦋 *Animales:* Renombrar todo: el semáforo controla quién cruza el río — cocodrilos (rojo) o flamencos (verde peatonal).
 
+
   </TabItem>
   <TabItem value="checklist" label="✅ Checklist final">
 
@@ -709,7 +744,9 @@ Antes de cerrar la sesión 8, verificar:
 - [ ] Después de dar paso al peatón, vuelve al ciclo normal
 - [ ] Ella puede explicar cada parte del código con sus propias palabras
 
+
   </TabItem>
+
 </Tabs>
 
 **Código nuevo en esta sesión:** `bool peatonEspera = false;` · variable booleana como bandera de estado.
