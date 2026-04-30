@@ -13,34 +13,10 @@ const sidebars: SidebarsConfig = {
           label: '🔵 Fase 1 · Fundamentos',
           items: ['arduino/fase1-fundamentos'],
         },
-        {
-          type: 'category',
-          label: '🟡 Fase 2 · Sensores',
-          items: [
-            // 'arduino/fase2-sensores',  // próximamente
-          ],
-        },
-        {
-          type: 'category',
-          label: '🟠 Fase 3 · Movimiento',
-          items: [
-            // 'arduino/fase3-movimiento',  // próximamente
-          ],
-        },
-        {
-          type: 'category',
-          label: '🔴 Fase 4 · Proyectos',
-          items: [
-            // 'arduino/fase4-proyectos',  // próximamente
-          ],
-        },
-        {
-          type: 'category',
-          label: '⚫ Fase 5 · Zumo (opcional)',
-          items: [
-            // 'arduino/fase5-zumo',  // próximamente
-          ],
-        },
+        // 🟡 Fase 2 · Sensores        → próximamente
+        // 🟠 Fase 3 · Movimiento      → próximamente
+        // 🔴 Fase 4 · Proyectos       → próximamente
+        // ⚫ Fase 5 · Zumo (opcional) → próximamente
       ],
     },
   ],
