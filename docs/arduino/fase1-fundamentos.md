@@ -679,11 +679,13 @@ Parpadeo irregular que simula perfectamente la llama de una vela.
 
 Antes de cerrar la sesión 8, verificar que ella puede:
 
-- [ ] Explicar el ciclo verde → amarillo → rojo con sus palabras
-- [ ] Demostrar que el botón funciona en cualquier momento del ciclo
-- [ ] Confirmar que el semáforo atiende al peatón al **terminar** el ciclo (no interrumpe)
-- [ ] Mostrar que después de dar paso al peatón, vuelve al ciclo normal
-- [ ] Explicar cada parte del código sin ayuda
+| ☐ | Tarea |
+|---|-------|
+| ☐ | Explicar el ciclo verde → amarillo → rojo con sus palabras |
+| ☐ | Demostrar que el botón funciona en cualquier momento del ciclo |
+| ☐ | Confirmar que el semáforo atiende al peatón al **terminar** el ciclo (no interrumpe) |
+| ☐ | Mostrar que después de dar paso al peatón, vuelve al ciclo normal |
+| ☐ | Explicar cada parte del código sin ayuda |
 
   </TabItem>
 </Tabs>
