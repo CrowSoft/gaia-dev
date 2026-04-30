@@ -3,7 +3,7 @@ id: fase1-fundamentos
 title: "Fase 1 — Fundamentos"
 sidebar_label: "🔵 Fase 1 · Fundamentos"
 sidebar_position: 2
-description: Sesiones 1 a 8 — LED, variables, loops, funciones y PWM. Proyecto final: semáforo con botón peatonal.
+description: "Sesiones 1 a 8 — LED, variables, loops, funciones y PWM. Proyecto final: semáforo con botón peatonal."
 tags:
   - arduino
   - fundamentos

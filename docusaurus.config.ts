@@ -18,6 +18,7 @@ const config: Config = {
   projectName: 'gaia-dev',     // 👈 nombre de tu repo
 
   onBrokenLinks: 'throw',
+  trailingSlash: false,
 
   i18n: {
     defaultLocale: 'es',
