@@ -82,7 +82,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={siteConfig.title}
-      description="Plan de estudios Arduino para niñas de 9 años — del primer LED al primer robot.">
+      description="Plan de estudios Arduino para Gaia — del primer LED al primer robot.">
       <header className={styles.heroBanner}>
         <div className="container">
           <p className={styles.heroEmoji}>🤖</p>

@@ -4,7 +4,7 @@ const sidebars: SidebarsConfig = {
   arduinoSidebar: [
     {
       type: 'category',
-      label: '🤖 Arduino para Niñas',
+      label: '🤖 Arduino para Gaia',
       collapsible: false,
       items: [
         'arduino/intro',
