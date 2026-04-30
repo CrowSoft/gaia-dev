@@ -17,3 +17,47 @@
   --ifm-color-primary-lighter: #93e5fc;
   --ifm-color-primary-lightest: #c4f1fd;
 }
+
+/* Admonitions */
+.alert--info {
+  --ifm-alert-background-color: #1a2744;
+  --ifm-alert-border-color: #61dafb;
+  --ifm-alert-color: #e8f4fd;
+}
+
+.alert--success {
+  --ifm-alert-background-color: #1a2e1a;
+  --ifm-alert-border-color: #4caf50;
+  --ifm-alert-color: #e8f5e9;
+}
+
+.alert--warning {
+  --ifm-alert-background-color: #2e2210;
+  --ifm-alert-border-color: #ff9800;
+  --ifm-alert-color: #fff3e0;
+}
+
+.alert--danger {
+  --ifm-alert-background-color: #2e1010;
+  --ifm-alert-border-color: #f44336;
+  --ifm-alert-color: #ffeaea;
+}
+
+/* tip usa success internamente */
+[data-theme='light'] .alert--info {
+  --ifm-alert-background-color: #e8f4fd;
+  --ifm-alert-border-color: #0f3460;
+  --ifm-alert-color: #0f3460;
+}
+
+[data-theme='light'] .alert--success {
+  --ifm-alert-background-color: #e8f5e9;
+  --ifm-alert-border-color: #2e7d32;
+  --ifm-alert-color: #1b5e20;
+}
+
+[data-theme='light'] .alert--warning {
+  --ifm-alert-background-color: #fff8e1;
+  --ifm-alert-border-color: #f57c00;
+  --ifm-alert-color: #e65100;
+}

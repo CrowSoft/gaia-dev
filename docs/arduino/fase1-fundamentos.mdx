@@ -18,7 +18,6 @@ import TabItem from '@theme/TabItem';
 # Fase 1 — Fundamentos
 ### Sesiones 1 a 8
 
-
 :::info Perfil del estudiante
 
 9 años · Ya armó un circuito simple · Se frustra rápido si no ve resultados rápido
@@ -82,7 +81,7 @@ Serial.println(valor);
 | Material | Cantidad | Notas |
 |----------|----------|-------|
 | Arduino Uno + cable USB | 1 | |
-| Protoboard grande | 1 | 830 puntos |
+| Breadboard grande | 1 | 830 puntos |
 | Jumpers macho-macho | 20–30 | Colores variados |
 | LEDs rojos | 3 | Para semáforo |
 | LED verde | 2 | |
@@ -148,7 +147,6 @@ Al encender (1 vez):        Para siempre:
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones">
 
-
 :::tip Sustituir el LED por algo más
 
 **Buzzer en el pin 13** → el Arduino bip-bip en lugar de parpadear. Sorpresa instantánea.
@@ -162,7 +160,6 @@ Al encender (1 vez):        Para siempre:
 🏰 *Destripando la Historia:* "Imagínate que eres el mensajero del rey y tienes que parpadear una antorcha en código Morse. ¿Cómo harías la letra S (tres parpadeos rápidos)?"
 
 🎵 *Música:* "¿Puedes hacer que parpadee al ritmo de una canción que te sepas?"
-
 
 :::note Pregunta para la próxima sesión
 
@@ -183,7 +180,7 @@ Al encender (1 vez):        Para siempre:
 
 **Gancho:** *"El LED interno de la placa está escondido. Hoy vas a poner tu propio LED donde tú quieras y hacerlo parpadear. Ese LED, ese circuito, es tuyo."*
 
-**Materiales:** Arduino + brotoboard + 1 LED + resistencia 220Ω + jumpers + multímetro.
+**Materiales:** Arduino + breadboard + 1 LED + resistencia 220Ω + jumpers + multímetro.
 
 <Tabs>
   <TabItem value="flujo" label="📋 Flujo de sesión" default>
@@ -191,7 +188,7 @@ Al encender (1 vez):        Para siempre:
 | Tiempo | Actividad |
 |--------|-----------|
 | 0–10 min | Retomar la pregunta de la semana pasada. Analogía: *"la resistencia frena la corriente como una manguera más angosta frena el agua"* |
-| 10–20 min | Conocer el brotoboard. Dibujar cómo están conectados los hoyos. Probar con el multímetro |
+| 10–20 min | Conocer el breadboard. Dibujar cómo están conectados los hoyos. Probar con el multímetro |
 | 20–35 min | Armar el circuito: pin 13 → resistencia 220Ω → LED → GND. Cargar Blink |
 | 35–45 min | Experimentar: ¿qué pasa si volteas el LED? ¿Si quitas la resistencia? Medir voltaje con multímetro |
 | 45–55 min | Mover el cable al pin 7 y cambiar el código. Ella lo hace sola |
@@ -215,7 +212,6 @@ El LED tiene polaridad:
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones">
 
-
 :::tip Sustituir el LED por algo más
 
 **LED de 10mm gigante** → mucho más visible y espectacular.
@@ -225,7 +221,6 @@ El LED tiene polaridad:
 **Motor de vibración** (de teléfono viejo) → el Arduino hace vibrar algo físico.
 
 :::
-
 
 :::tip Usar el cautín
 
@@ -237,7 +232,6 @@ Si los headers del Arduino están sueltos, este es el momento perfecto para que 
 
 🦋 *Animales:* "Las luciérnagas parpadean para comunicarse. Hoy tú también tienes tu propia luciérnaga electrónica."
 
-
 :::note Pregunta para la próxima sesión
 
 *"¿Cómo harías para cambiar la velocidad del parpadeo sin tener que cambiar el número cada vez? ¿Hay una forma más inteligente?"*
@@ -247,7 +241,7 @@ Si los headers del Arduino están sueltos, este es el momento perfecto para que 
   </TabItem>
 </Tabs>
 
-**Al salir de esta sesión sabe:** cómo armar un circuito en brotoboard, por qué existe la resistencia, polaridad del LED, cómo medir con el multímetro.
+**Al salir de esta sesión sabe:** cómo armar un circuito en breadboard, por qué existe la resistencia, polaridad del LED, cómo medir con el multímetro.
 
 ---
 
@@ -281,7 +275,6 @@ int velocidad = 500;
 
 Cuando el código llega a `delay(velocidad)`, lo sustituye mentalmente por `delay(500)`.
 
-
 :::tip Hacerlo tangible
 
 Escribir la variable en un **post-it** y pegarlo junto a la computadora. Cuando ella cambia el número, cambiar también el post-it. *"Esto es lo que el Arduino tiene en su memoria ahorita."*
@@ -290,7 +283,6 @@ Escribir la variable en un **post-it** y pegarlo junto a la computadora. Cuando 
 
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones">
-
 
 :::tip Ampliar el circuito
 
@@ -305,7 +297,6 @@ Escribir la variable en un **post-it** y pegarlo junto a la computadora. Cuando 
 🏰 *Destripando la Historia:* "Los barcos se comunicaban con señales de luz. El código Morse tiene tiempos exactos: punto = corto, raya = largo. ¿Puedes hacer la letra A (punto-raya) con variables?"
 
 🎵 *Música:* "¿Puedes hacer que el LED parpadee al ritmo de tu canción favorita?"
-
 
 :::note Pregunta para la próxima sesión
 
@@ -326,7 +317,7 @@ Escribir la variable en un **post-it** y pegarlo junto a la computadora. Cuando 
 
 **Gancho:** *"Hoy vas a hacer que 3 LEDs se enciendan en secuencia, como las luces de un escenario. Sin copiar y pegar el mismo código 30 veces."*
 
-**Materiales:** Arduino + brotoboard + 3 LEDs de distintos colores + 3 resistencias 220Ω + jumpers.
+**Materiales:** Arduino + breadboard + 3 LEDs de distintos colores + 3 resistencias 220Ω + jumpers.
 
 <Tabs>
   <TabItem value="flujo" label="📋 Flujo de sesión" default>
@@ -362,7 +353,6 @@ Vuelta 1: pines[1] = pin 10 → LED centro
 Vuelta 2: pines[2] = pin 11 → LED derecho
 ```
 
-
 :::warning El índice empieza en 0, no en 1
 
 Esto suele sorprender. Vale la pena dedicarle un momento específico.
@@ -371,7 +361,6 @@ Esto suele sorprender. Vale la pena dedicarle un momento específico.
 
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones">
-
 
 :::tip Efectos con 3 LEDs
 
@@ -390,7 +379,6 @@ Esto suele sorprender. Vale la pena dedicarle un momento específico.
 🦋 *Animales:* "Las luciérnagas macho y hembra parpadean en patrones distintos para reconocerse. Crea dos patrones diferentes."
 
 🏰 *Destripando la Historia:* "Los faros de los puertos tenían secuencias específicas para que los barcos supieran dónde estaban. Crea la señal de tu puerto."
-
 
 :::note Pregunta para la próxima sesión
 
@@ -411,7 +399,7 @@ Esto suele sorprender. Vale la pena dedicarle un momento específico.
 
 **Gancho:** *"Hasta ahora el Arduino hace lo mismo sin importar nada. Hoy por primera vez va a reaccionar a ti."*
 
-**Materiales:** Arduino + brotoboard + 1 LED + resistencia 220Ω + 1 botón push + jumpers.
+**Materiales:** Arduino + breadboard + 1 LED + resistencia 220Ω + 1 botón push + jumpers.
 
 <Tabs>
   <TabItem value="flujo" label="📋 Flujo de sesión" default>
@@ -448,17 +436,16 @@ if (digitalRead(2) == LOW) {
 }
 ```
 
-
 :::tip Por qué INPUT_PULLUP
 
 Usa la resistencia interna del Arduino. No necesitamos resistencia externa para el botón.
+
 Sin presionar → pin HIGH. Al presionar → pin LOW (conecta directo a GND).
 
 :::
 
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones">
-
 
 :::tip Sustituir el botón
 
@@ -467,7 +454,6 @@ Sin presionar → pin HIGH. Al presionar → pin LOW (conecta directo a GND).
 **Sensor de inclinación (tilt sensor)** → el LED reacciona si la placa está inclinada.
 
 :::
-
 
 :::tip Sustituir el LED
 
@@ -482,7 +468,6 @@ Sin presionar → pin HIGH. Al presionar → pin LOW (conecta directo a GND).
 🏰 *Historias y personajes:* "Eres la guarda del castillo. El botón es la palanca secreta. Si alguien la activa, suena la alarma. Programa el sistema de seguridad."
 
 🦋 *Animales:* "Algunos animales se congelan cuando detectan peligro. ¿Puedes hacer que los LEDs se congelen cuando presionas el botón?"
-
 
 :::note Pregunta para la próxima sesión
 
@@ -541,7 +526,6 @@ El objetivo: que `loop()` se lea casi como español.
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones">
 
-
 :::tip Funciones con personalidad
 
 `celebrar()` → parpadeo rápido de todos los LEDs + buzzer.
@@ -562,7 +546,6 @@ Luego el `loop()` queda: `if (boton) { alerta(); } else { dormido(); }`
 
 🦋 *Animales:* Funciones `dormir()`, `comer()`, `correr()` para una "mascota LED" que cambia de estado con el botón.
 
-
 :::note Pregunta para la próxima sesión
 
 *"El LED siempre está completamente encendido o completamente apagado. ¿Crees que se puede hacer que esté a la mitad de brillo? ¿Cómo?"*
@@ -582,7 +565,7 @@ Luego el `loop()` queda: `if (boton) { alerta(); } else { dormido(); }`
 
 **Gancho:** *"El Arduino no puede dar 'medio voltaje'. Pero tiene un truco muy inteligente: parpadea tan rápido que tu ojo no lo ve y parece que está atenuado. Ese truco se llama PWM."*
 
-**Materiales:** Arduino + brotoboard + 1 LED en pin 9 + resistencia 220Ω. Opcional: LED RGB cátodo común.
+**Materiales:** Arduino + breadboard + 1 LED en pin 9 + resistencia 220Ω. Opcional: LED RGB cátodo común.
 
 <Tabs>
   <TabItem value="flujo" label="📋 Flujo de sesión" default>
@@ -607,7 +590,6 @@ analogWrite(pin, 0):    ░░░░░░░░░░░░░░░░  siempr
 → Tan rápido que el ojo lo ve como distintos brillos
 ```
 
-
 :::warning Solo pines con ~
 
 Los pines 3, 5, 6, 9, 10, 11 pueden usar `analogWrite()` en el Arduino Uno.
@@ -616,7 +598,6 @@ Los pines 3, 5, 6, 9, 10, 11 pueden usar `analogWrite()` en el Arduino Uno.
 
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones">
-
 
 :::tip Con LED RGB (cátodo común, 4 patas)
 
@@ -627,10 +608,10 @@ analogWrite(10, 0);
 analogWrite(11, 0);
 // Mezclar valores → cualquier color del espectro
 ```
+
 Hacer un ciclo que recorra todos los colores → efecto arcoíris.
 
 :::
-
 
 :::tip Simular una vela con random()
 
@@ -639,6 +620,7 @@ int brillo = random(100, 255);
 analogWrite(9, brillo);
 delay(random(50, 150));
 ```
+
 Parpadeo irregular que simula perfectamente la llama de una vela.
 
 :::
@@ -650,7 +632,6 @@ Parpadeo irregular que simula perfectamente la llama de una vela.
 🦋 *Animales:* "Las medusas tienen una luz que pulsa suavemente. Haz la medusa electrónica."
 
 🏰 *Destripando la Historia:* "Las velas de las iglesias medievales parpadeaban con el viento. Haz un LED que simule una vela con `random()`."
-
 
 :::note Pregunta para la próxima sesión
 
@@ -720,7 +701,6 @@ Parpadeo irregular que simula perfectamente la llama de una vela.
   </TabItem>
   <TabItem value="divertido" label="🎉 Variaciones">
 
-
 :::tip Detalles realistas
 
 **Buzzer:** pitido lento durante el rojo, pitido rápido durante el verde peatonal.
@@ -730,7 +710,6 @@ Parpadeo irregular que simula perfectamente la llama de una vela.
 **LED RGB** en lugar de 3 LEDs separados → más limpio visualmente.
 
 :::
-
 
 :::tip Ampliar el proyecto
 
@@ -780,7 +759,6 @@ Al terminar la sesión 8, hacer una revisión breve. Ella responde con sus palab
 | ¿Qué es una función? | Un bloque de código con nombre que puedo llamar |
 | ¿Qué es PWM? | Parpadear muy rápido para simular brillo intermedio |
 | ¿Por qué el LED necesita resistencia? | Para que no se queme con demasiada corriente |
-
 
 :::tip Criterio de avance
 
